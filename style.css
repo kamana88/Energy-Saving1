@@ -1,0 +1,59 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+#app {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#tips-section,
+#progress-section {
+    margin-top: 20px;
+}
+
+#tips-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+#tips-list li {
+    margin-bottom: 10px;
+}
+
+#progress-section p {
+    font-size: 18px;
+}
+
+#total-energy-saved {
+    font-weight: bold;
+    color: #4caf50;
+}
